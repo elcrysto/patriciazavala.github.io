@@ -1,0 +1,107 @@
+/* General resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Video background setup */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Ensure video covers entire background */
+    transform: translate(-50%, -50%);
+}
+
+/* Content overlay */
+.content {
+    text-align: center;
+    z-index: 1;
+}
+
+.content h1 {
+    font-size: 3em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+
+.content h1 span {
+    font-weight: 700; /* Bold for "listen to" */
+    display: block;
+}
+
+.content h2 {
+    font-size: 4em;
+    font-weight: 700; /* Bold weight */
+    margin-top: 10px;
+}
+
+/* Footer styling */
+footer {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 0.7em;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 2em;
+    }
+
+    .content h2 {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    .content h1 {
+        font-size: 1.5em;
+    }
+
+    .content h2 {
+        font-size: 2em;
+    }
+}
