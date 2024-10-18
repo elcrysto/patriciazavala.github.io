@@ -49,20 +49,20 @@ html, body {
 }
 
 .content h1 {
-    font-size: 3em;
-    font-weight: 400;
+    font-size: 6em;
+    font-weight: 800;
     letter-spacing: 2px;
     line-height: 1.2;
 }
 
 .content h1 span {
-    font-weight: 700; /* Bold for "listen to" */
+    font-weight: 800; /* Bold for "listen to" */
     display: block;
 }
 
 .content h2 {
-    font-size: 4em;
-    font-weight: 700; /* Bold weight */
+    font-size: 10em;
+    font-weight: 800; /* Bold weight */
     margin-top: 10px;
 }
 
