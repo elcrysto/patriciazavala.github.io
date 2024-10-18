@@ -66,6 +66,25 @@ html, body {
     margin-top: 10px;
 }
 
+/* Style for the content link */
+.content-link {
+    text-decoration: none; /* Remove underline from the link */
+    color: inherit; /* Inherit text color from parent element */
+    display: block; /* Make the link block-level so the entire area is clickable */
+    transition: color 0.3s ease; /* Smooth transition for color changes on hover */
+}
+
+/* Maintain text styles */
+.content {
+    color: white; /* Ensure the text color is white (or your desired color) */
+}
+
+/* Optional: Add hover effect for the link */
+.content-link:hover {
+    color: rgba(255, 255, 255, 0.8); /* Slightly change color on hover */
+    cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+}
+
 /* Footer styling */
 footer {
     position: absolute;
