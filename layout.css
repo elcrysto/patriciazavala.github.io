@@ -51,7 +51,6 @@ html, body {
 .content h1 {
     font-size: 3em;
     font-weight: 400;
-    text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 1.2;
 }
