@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "h-blk";
+  src: url("HelveticaNowDisplay-ExtBlk.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html, body {
     height: 100%;
     font-family: "h-blk";
@@ -14,13 +21,6 @@ html, body {
     align-items: center;
     color: white;
     overflow: hidden; /* Prevent scrolling */
-}
-
-@font-face {
-  font-family: "h-blk";
-  src: url("HelveticaNowDisplay-ExtBlk.woff2");
-  font-weight: normal;
-  font-style: normal;
 }
 
 /* Fullscreen video background setup */
