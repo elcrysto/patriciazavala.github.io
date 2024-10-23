@@ -116,6 +116,6 @@ footer {
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .content {
-        width: 50%;
+        height:10%;
     }
 }
