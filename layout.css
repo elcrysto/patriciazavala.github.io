@@ -115,7 +115,11 @@ footer {
 }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
+    .content {
+        padding-bottom:0;
+    }
+
     .content h1 {
         font-size: 3.5em;
     }
