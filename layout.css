@@ -127,7 +127,6 @@ footer {
 @media (max-width: 480px) { /* iPhone */
     .content h1 {
         font-size: 3em;
-        color: black;
     }
 
     .content h2 {
@@ -137,6 +136,6 @@ footer {
         width:200px;
     }
     .content img {
-        padding-bottom:20px;
+        padding-bottom:25px;
     }
 }
