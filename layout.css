@@ -114,7 +114,7 @@ footer {
 }
 
 /* Responsive adjustments */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     img {
         width:80%;
     }
