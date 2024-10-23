@@ -131,6 +131,7 @@ footer {
 
     .content h2 {
         font-size: 5em;
+        color: black;
     }
     img {
         width:200px;
@@ -139,6 +140,6 @@ footer {
         padding-bottom:30px;
     }
     .content {
-        padding-bottom:0px;
+        padding-bottom:0px !important;
     }
 }
