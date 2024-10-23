@@ -97,10 +97,6 @@ body {
     line-height: 0;
 }
 
-.mobile-text::before {
-    content: 'click to'; /* Default text for larger screens */
-}
-
 .-is-visually-hidden {
   width: 1px;
   height: 1px;
