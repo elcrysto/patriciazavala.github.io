@@ -78,6 +78,7 @@ body {
     display: block;
     padding-bottom:60px;
 }
+}
 
 .content h1, .content h2 {
     margin: 0; /* Remove any margin */
@@ -116,6 +117,7 @@ footer {
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .content {
-        height:10%;
+        height:5%;
     }
 }
+
