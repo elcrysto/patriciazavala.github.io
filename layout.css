@@ -70,7 +70,6 @@ body {
     color: white;
     text-align: center;
     z-index: 1;
-    padding-bottom:50px;
 }
 
 .content img {
@@ -131,15 +130,11 @@ footer {
 
     .content h2 {
         font-size: 5em;
-        color: black;
     }
     img {
         width:200px;
     }
     .content img {
         padding-bottom:30px;
-    }
-    .content {
-        padding-bottom:0px !important;
     }
 }
