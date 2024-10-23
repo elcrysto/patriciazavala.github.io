@@ -73,6 +73,8 @@ html, body {
 
 /* Style for the content link */
 .content-link {
+    font-family: "h-blk";
+    color: white; /* Ensure the text color is white (or your desired color) */
     text-decoration: none; /* Remove underline from the link */
     color: inherit; /* Inherit text color from parent element */
     display: block; /* Make the link block-level so the entire area is clickable */
