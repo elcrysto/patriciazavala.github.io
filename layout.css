@@ -58,7 +58,7 @@ html, body {
 .content h1 {
     font-size: 6em;
     font-weight: 800;
-    letter-spacing: 2px;
+    /*letter-spacing: 2px;*/
     /*line-height: 1.2;*/
 }
 
@@ -70,7 +70,7 @@ html, body {
 .content h2 {
     font-size: 10em;
     font-weight: 800; /* Bold weight */
-    margin-top: 10px;
+    /*margin-top: 10px;*/
 }
 
 .-is-visually-hidden {
