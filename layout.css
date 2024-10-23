@@ -7,7 +7,6 @@
 
 html, body {
     height: 100%;
-    /*font-family: 'Montserrat', sans-serif;*/
     font-family: "h-blk";
     display: flex;
     flex-direction: column;
@@ -60,7 +59,7 @@ html, body {
     font-size: 6em;
     font-weight: 800;
     letter-spacing: 2px;
-    line-height: 1.2;
+    /*line-height: 1.2;*/
 }
 
 .content h1 span {
