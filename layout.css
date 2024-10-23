@@ -14,12 +14,12 @@
 
 html, body {
     height: 100%;
-    font-family: "h-blk";
+    /*font-family: "h-blk";*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    /*color: white;*/
     overflow: hidden; /* Prevent scrolling */
 }
 
@@ -50,7 +50,9 @@ html, body {
 
 /* Content overlay */
 .content {
+    font-family: "h-blk";
     text-align: center;
+    color: white;
     z-index: 1;
     position: relative;
 }
@@ -58,8 +60,8 @@ html, body {
 .content h1 {
     font-size: 6em;
     font-weight: 800;
-    /*letter-spacing: 2px;*/
-    /*line-height: 1.2;*/
+    letter-spacing: 2px;
+    line-height: 1.2;
 }
 
 .content h1 span {
