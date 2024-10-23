@@ -138,4 +138,7 @@ footer {
     .content img {
         padding-bottom:30px;
     }
+    .content {
+        padding-bottom:0px;
+    }
 }
