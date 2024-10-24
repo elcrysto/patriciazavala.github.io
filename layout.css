@@ -152,5 +152,8 @@ footer {
         width: 100%; /* Ensure it spans the full width of its container */
         margin: 0; /* Remove any margin */
         padding: 0; /* Remove padding */
+        position: relative; /* Make sure it's positioned relative to its container */
+        top: 0; /* Reset top position */
+        bottom: 0;
     }
 }
