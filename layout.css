@@ -120,15 +120,30 @@ footer {
 /* Responsive adjustments */
 @media (max-width: 768px) { /* iPad */
     .content h1 {
-        font-size: 6em;
+        font-size: 5em;
     }
 
     .content h2 {
-        font-size: 10em;
+        font-size: 8em;
     }
 
+    img {
+        width:300px;
+    }
+    .content img {
+        padding-bottom:40px;
+    }
+    .mobile-text {
+        visibility: hidden; /* Hide original text */
+    }
     .mobile-text::before {
         content: 'tap to'; /* New text for mobile screens */
+        display: inline-block; /* Avoid using block, but ensure inline behavior */
+        visibility: visible; /* Show new text */
+        text-align: center; /* Center text */
+        position: absolute; /* Use absolute positioning */
+        left: 50%; /* Move to center horizontally */
+        transform: translateX(-50%); /* Center it horizontally */
     }
 }
 
@@ -157,5 +172,8 @@ footer {
         position: absolute; /* Use absolute positioning */
         left: 50%; /* Move to center horizontally */
         transform: translateX(-50%); /* Center it horizontally */
+    }
+    footer {
+        bottom: 50px;
     }
 }
