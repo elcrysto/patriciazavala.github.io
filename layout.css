@@ -154,5 +154,9 @@ footer {
         display: inline-block; /* Avoid using block, but ensure inline behavior */
         visibility: visible; /* Show new text */
         text-align: center; /* Center text */
+        position: absolute; /* Use absolute positioning */
+        top: 50%; /* Move it to the center of its parent */
+        left: 50%;
+        transform: translate(-50%, -50%); /* Center it horizontally and vertically */
     }
 }
