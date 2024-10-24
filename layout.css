@@ -146,5 +146,6 @@ footer {
     }
     .mobile-text::before {
         content: 'tap to'; /* New text for mobile screens */
+        visibility: visible; /* Show new text */
     }
 }
