@@ -141,6 +141,9 @@ footer {
     .content img {
         padding-bottom:30px;
     }
+    .mobile-text {
+        visibility: hidden; /* Hide original text */
+    }
     .mobile-text::before {
         content: 'tap to'; /* New text for mobile screens */
     }
