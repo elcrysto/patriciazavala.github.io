@@ -155,8 +155,7 @@ footer {
         visibility: visible; /* Show new text */
         text-align: center; /* Center text */
         position: absolute; /* Use absolute positioning */
-        top: 50%; /* Move it to the center of its parent */
-        left: 50%;
-        transform: translate(-50%, -50%); /* Center it horizontally and vertically */
+        left: 50%; /* Move to center horizontally */
+        transform: translateX(-50%); /* Center it horizontally */
     }
 }
