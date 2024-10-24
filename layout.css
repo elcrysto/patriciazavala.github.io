@@ -147,8 +147,6 @@ footer {
     .mobile-text::before {
         content: 'tap to'; /* New text for mobile screens */
         visibility: visible; /* Show new text */
-        display: block; /* Ensure it's treated like a block element */
         text-align: center; /* Center text */
-        
     }
 }
